@@ -2,6 +2,61 @@
     box-sizing: border-box;
   }
   body {
-    margin: 0;
+    margin: 0 auto;
     font-family: 'Poppins', sans-serif;
   }
+  .container{
+      max-width: 1320px;
+      margin: 0 auto;
+  }
+  /*==============heder part======*/
+  @media (min-width:768px) {
+    .headerwrapper{
+        display: flex;
+    }
+    .logo{
+        width: 50%;
+        text-align: left !important;
+        padding-left: 20px;
+    }
+    .menu{
+        width: 50%;
+    }
+    .menu ul{
+        display: flex;
+        justify-content: end;
+    }
+    .menu ul li{
+      text-align: right;
+      list-style: none;
+      padding: 25px !important;
+  }
+  .menu ul li a{
+      text-decoration: none;
+  }
+  }
+  .logo{
+      width: 100%;
+      text-align: center;
+  }
+  .logo h1 a{
+      text-decoration: none;
+  }
+  .logo h1 span{
+    color: #FC8B47;
+}
+  .menu{
+      width: 100%;
+  }
+  .menu ul{
+      display: flex;
+      justify-content: center;
+  }
+  .menu ul li{
+    list-style: none;
+    padding: 15px;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+  
