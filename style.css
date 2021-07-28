@@ -5,9 +5,15 @@
     margin: 0 auto;
     font-family: 'Poppins', sans-serif;
   }
+  img{
+      max-width: 100%;
+  }
   .container{
       max-width: 1320px;
       margin: 0 auto;
+  }
+  section{
+      margin-top: 50px;
   }
   /*==============heder part======*/
   @media (min-width:768px) {
@@ -24,7 +30,7 @@
     }
     .menu ul{
         display: flex;
-        justify-content: end;
+        justify-content: end !important;
     }
     .menu ul li{
       text-align: right;
@@ -59,4 +65,127 @@
 .menu ul li a{
     text-decoration: none;
 }
+
+/*==========header end============*/
+  @media (min-width:992px) {
+    .bannerwrapper{
+        display: flex;
+    }
+  }
   
+  .bannerintro{
+      width: 95%;
+      margin-left: 3%;
+  }
+  .bannerintro h1{
+      font-size: 35px;
+      line-height: 1.5;
+  }
+  .bannerintro h1 span{
+      color: #FC8B47;
+  }
+  .bannerintro h1 a{
+      text-decoration: none;
+  }
+  .bannerintro button{
+      margin-top: 20px;
+      padding: 15px 35px;
+      background-image: linear-gradient(to right,#FB9048,#FD5332);
+      border-radius: 45px;
+  }
+  .bannerintro button a{
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+  }
+
+
+  @media (min-width:992px) {
+    .bannerintro{
+        margin-top:7%;
+        width: 45%;
+        margin-left: 4%;
+    }
+    .bannerintro h1{
+        font-size: 40px;
+        line-height: 1.5;
+    }
+  }
+  /*intro end---------------*/
+  
+  .bannerimg{
+      margin-top: 30px;
+      width: 95%;
+      margin-left: 4%;
+      position: relative;
+  }
+  .bannerimg .shape img{
+      width: 90%;
+      height: auto;
+      position: relative;
+  }
+  .bannerimg .bimage img{
+      position: absolute;
+      top: 60px;
+  }
+
+
+  @media (min-width:992px) {
+    .bannerimg{
+        width: 45%;
+        margin-left: 4%;
+        position: relative;
+    }
+    .bannerimg .shape img{
+        width: 95%;
+        height: auto;
+        position: relative;
+    }
+    .bannerimg .bimage img{
+        position: absolute;
+        top: 60px;
+    }
+  }
+
+  /*-----------------banner end-------------------*/
+
+  .aboutsection{
+      background-image: url(images/f57.jpg);
+      width: 100%;
+      height: auto;
+      background-repeat: no-repeat;
+  }
+  .abouttext{
+      margin: 0px 10px;
+  }
+  .abouttext button{
+    margin-top: 45px;
+    padding: 15px 35px;
+    background-image: linear-gradient(to right,#FB9048,#FD5332);
+    border-radius: 45px;
+}
+.abouttext button a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+  @media (min-width:992px) {
+      .aboutwrapper{
+            display: flex;
+      }
+      .aurtherimg{
+          width: 45%;
+          margin-left: 4%;
+      }
+      .abouttext{
+          margin-top: 7%;
+          width: 45%;
+          margin-left: 4%;
+      }
+      .abouttext h1{
+          font-size: 40px;
+          color: #707070;
+      }
+      
+  }
