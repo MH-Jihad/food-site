@@ -14,6 +14,7 @@
   }
   section{
       margin-top: 50px;
+      bottom: 30px;
   }
   /*==============heder part======*/
   @media (min-width:768px) {
@@ -60,7 +61,7 @@
   }
   .menu ul li{
     list-style: none;
-    padding: 15px;
+    padding: 10px;
 }
 .menu ul li a{
     text-decoration: none;
@@ -189,3 +190,160 @@
       }
       
   }
+  /*------------------about end-----*/
+
+  /*product start-------------*/
+  .descrivecrd{
+      text-align: center;
+      padding: 0px 20px;
+  }
+  .descrivecrd h1{
+      font-size: 40px;
+      line-height: 1.5;
+      color: #707070;
+  }
+  
+  .card{
+      margin-top: 60px;
+      width: 80%;
+      padding: 10px;
+      border: 1px solid white;
+      border-radius: 40px;
+      box-shadow: 10px 10px 10px 10px  gray;
+      margin-left: 2%;
+  }
+  .card img{
+      max-width: 350px;
+      height: 350px;
+      object-fit: cover;
+      width: 100%;
+      border-radius: 40px;
+  }
+  .card h3{
+      font-size: 28px;
+      line-height: 1.5;
+  }
+  @media (min-width:650px) {
+    .descrivecrd{
+        text-align: center;
+        padding: 0px 200px;
+    }
+    .descrivecrd h1{
+        font-size: 40px;
+        line-height: 1.5;
+        color: #707070;
+    }
+    .cardall{
+        display: flex;
+    }
+    .card{
+        margin-top: 60px;
+        width: 300px;
+        padding: 10px;
+        border: 1px solid white;
+        border-radius: 40px;
+        box-shadow: 10px 10px 10px 10px  gray;
+        margin-left: 5%;
+    }
+    .card img{
+        max-width: 350px;
+        height: 350px;
+        object-fit: cover;
+        width: 100%;
+        border-radius: 40px;
+    }
+    .card h3{
+        font-size: 28px;
+        line-height: 1.5;
+    }
+  }
+  @media (min-width:800px) {
+    .descrivecrd{
+        text-align: center;
+        padding: 0px 200px;
+    }
+    .descrivecrd h1{
+        font-size: 40px;
+        line-height: 1.5;
+        color: #707070;
+    }
+    .cardall{
+        display: flex;
+    }
+    .card{
+        margin-top: 60px;
+        width: 380px;
+        padding: 10px;
+        border: 1px solid white;
+        border-radius: 40px;
+        box-shadow: 10px 10px 10px 10px  gray;
+        margin-left: 5%;
+    }
+    .card img{
+        max-width: 350px;
+        height: 350px;
+        object-fit: cover;
+        width: 100%;
+        border-radius: 40px;
+    }
+    .card h3{
+        font-size: 28px;
+        line-height: 1.5;
+    }
+  }
+  /*card end============*/
+  #contact{
+      background-image: url(images/contactbg.png);
+  }
+  .cnttile{
+      text-align: center;
+      font-size: 40px;
+      line-height: 1.5;
+      color: white;
+  }
+  .cntelmnt{
+      text-align: center;
+  }
+  .cntelmnt h4{
+      color: white;
+  }
+  form input{
+      width: 50%;
+      padding: 20px;
+  }
+  form textarea{
+      width: 50%;
+  }
+  form button{
+    padding: 15px 35px;
+    background-image: linear-gradient(to right,#efef,#FD5332);
+    border-radius: 45px;
+    margin-top: 40px;
+  }
+  form button a{
+      text-decoration: none;
+      color: black;
+      font-size: 18px;
+  }
+form{
+    padding-bottom: 30px;
+}
+  /*---------CONTAT END---------*/
+
+  /*FOOTER ------*/
+  footer{
+      margin-top: 40px;
+      text-align: center;
+  }
+  footer h1 a{
+      text-decoration: none;
+  }
+  footer h1 a span{
+      color: #FC8B47;
+  }
+  footer a{
+     text-decoration: none;
+     padding-bottom: 20px;
+  }
+  /*end ===============*/
+  /*happy coding   */
